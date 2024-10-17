@@ -35,7 +35,7 @@ const EmailForm: React.FC = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch(`${import.meta.env.API_URL_SEND_MESSAGE}`, {
+      const response = await fetch(import.meta.env.VITE_API_URL_SEND_MESSAGE, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

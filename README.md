@@ -51,10 +51,10 @@ yarn install
 Create a `.env` file in the root of the project with the following content:
 
 ```
-API_URL_SEND_MESSAGE=https://your-api-endpoint.com/dev/email/send
+VITE_API_URL_SEND_MESSAGE=https://your-api-endpoint.com/dev/email/send
 ```
 
-This `API_URL_SEND_MESSAGE` is your backend API Gateway URL to send emails. Replace it with your deployed API endpoint.
+This `VITE_API_URL_SEND_MESSAGE` is your backend API Gateway URL to send emails. Replace it with your deployed API endpoint.
 
 ### 4. Run the Development Server
 
