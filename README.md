@@ -110,3 +110,7 @@ You can deploy the frontend to services like Vercel, Netlify, or AWS S3. In my c
 ## Backend Setup
 
 The backend consists of AWS Lambda functions and API Gateway. Ensure your API is deployed and accessible with the correct CORS settings.
+
+### Frontend URL:
+
+[https://emailserviceclient.netlify.app](https://emailserviceclient.netlify.app)
